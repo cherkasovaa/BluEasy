@@ -1,0 +1,46 @@
+@colorwhight: #feffff;
+@colorblue: #4bcaff;
+
+.Services {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: @colorwhight;
+	background: @colorblue;
+	font-family: "SegoeUI", sans-serif;
+	.Services-headerContainer {
+		text-transform: uppercase;
+		.Services-headerText {
+			display: block;
+			position: relative;
+			font-family: "SegoeUILight", sans-serif;
+			font-size: 30px;
+			padding-bottom: 10px;
+		}
+		.Sevices-textUnderLine {
+			display: inline-block;
+			position: absolute;
+			width: 46px;
+		    height: 2px;
+		    background: @colorwhight;
+		}
+	}
+	.Sevices-itemContainer {
+		display: flex;
+		flex-direction: row;
+		.Services-item{
+			padding-top: 35px;
+			margin-right: 25px;
+			font-family: "SegoeUISemiBold", sans-serif;
+			.Services-headerItem{
+				padding: 20px 0;
+				font-size: 24px;
+				text-transform: uppercase;
+			}
+			.Services-textItem{
+				line-height: 1.5;
+				font-size: 12px;
+			}
+		}
+	}
+}
