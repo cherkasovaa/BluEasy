@@ -1,0 +1,17 @@
+.u-container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.u-height800 {
+	height: 800px;
+}
+
+.u-opacityHeight{
+	height: 150px;
+	width: 100%;
+}
+
+.u-heightHeader150 {
+	height: 150px;
+}
