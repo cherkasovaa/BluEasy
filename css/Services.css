@@ -17,14 +17,14 @@
   text-transform: uppercase;
 }
 .Services .Services-headerContainer .Services-headerText {
-  display: block;
+  display: inline-block;
   position: relative;
   font-family: "SegoeUILight", sans-serif;
   font-size: 30px;
-  padding-bottom: 10px;
+  bottom: 10px;
 }
 .Services .Services-headerContainer .Sevices-textUnderLine {
-  display: inline-block;
+  display: block;
   position: absolute;
   width: 46px;
   height: 2px;

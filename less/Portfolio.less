@@ -1,0 +1,75 @@
+@colorGrey: #515f67;
+@colorbg: #fff;
+@colorBlue: #4bcaff;
+
+.Portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: @colorbg;
+	font-family: "SegoeUILight", sans-serif;
+	font-size: 30px;
+	color: @colorGrey;
+	text-transform: uppercase;
+	.Portfolio-menuContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 80px;
+		.Portfolio-headerContainer {
+			display: inline-block;
+			text-transform: uppercase;
+			.Portfolio-headerText {
+				display: inline-block;
+				position: relative;
+				font-family: "SegoeUILight", sans-serif;
+				font-size: 30px;
+				bottom: 10px;
+			}
+			.Portfolio-textUnderLine {
+				display: block;
+				position: absolute;
+				width: 46px;
+			    height: 2px;
+			    background: @colorGrey;
+			}
+		}	
+	}
+		.Portfolio-menu {
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+			box-sizing: border-box;
+			.Portfolio-item {
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 14px;
+				color: @colorGrey;
+				padding: 8px 17px;
+				border: 2px solid transparent;
+				&:hover{
+					color: @colorBlue;
+					border: 2px solid @colorBlue;
+				}
+			}
+		}
+	.Portfolio-imgContainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-between;
+		.Portfolio-wrap {
+			overflow: hidden;
+			background: @colorGrey;
+			cursor: pointer;
+			position: relative;
+			.Portfolio-imgItem {
+				transition: .9s;
+				&:hover {
+					opacity: 0.2;
+				}
+			}
+		}
+	}
+}
