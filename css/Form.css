@@ -1,0 +1,116 @@
+.Form {
+  background: url(../images/bg/bg_form.jpg) no-repeat center center / cover;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SegoeUISemiBold", sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+.Form-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+}
+.Form-headerContainer {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-bottom: 38px;
+}
+.Form-headerText {
+  display: inline-block;
+  font-size: 30px;
+  top: 0;
+  bottom: 10px;
+}
+.Form-textUnderLine {
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 2px;
+  background: #fff;
+}
+.Form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+.Form-item {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.Form-itemInput {
+  background: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 470px;
+  height: 60px;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  border: 2px solid #fff;
+}
+.Form-itemInput:focus {
+  color: #fff;
+}
+.Form-textArea {
+  width: 100%;
+  height: 220px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #fff;
+  background: none;
+  resize: none;
+  margin-bottom: 40px;
+}
+.Form-textArea:focus {
+  color: #fff;
+}
+.Form-btn {
+  width: 372px;
+  background-color: #4bcaff;
+  color: #fff;
+  padding: 25px 153px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.Form-textContent {
+  display: block;
+  line-height: 1.5;
+  width: 570px;
+  position: absolute;
+  top: 172px;
+  right: 270px;
+}
+.Form-addressInfo {
+  font-family: 'SegoeUILight', sans-serif;
+}
+.Form-addressInfo:first-child {
+  padding-bottom: 40px;
+}

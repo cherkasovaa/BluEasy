@@ -1,0 +1,97 @@
+.Form{
+	background: url(../images/bg/bg_form.jpg) no-repeat center center / cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "SegoeUISemiBold", sans-serif;
+	font-size: 14px;
+	position: relative;
+	&-wrapp {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 40px;
+	}
+	&-headerContainer {
+		display: inline-block;
+		text-transform: uppercase;
+		padding-bottom: 38px;
+	}
+	&-headerText {
+		display: inline-block;
+		font-size: 30px;
+		top: 0;
+		bottom: 10px;
+	}
+	&-textUnderLine {
+		display: block;
+		position: absolute;
+		width: 46px;
+	    height: 2px;
+	    background: #fff;
+	}
+	&-wrapper {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		position: relative;
+	}
+	&-item{
+		text-transform: uppercase;
+		padding-bottom: 8px;
+	}
+	&-itemInput {
+		background: none;
+		box-sizing: border-box;
+		width: 470px;
+		height: 60px;
+		padding: 15px 20px;
+		margin-bottom: 40px;
+		border: 2px solid #fff;
+		&:focus {
+			color:#fff;
+		}
+	}
+
+	&-textArea{
+		box-sizing: border-box;
+		width: 100%;
+	    height: 220px;
+	    padding: 12px 20px;
+	    box-sizing: border-box;
+	    border: 2px solid #fff;
+	    background: none;
+	    resize: none;
+	    margin-bottom: 40px;
+	    &:focus {
+			color:#fff;
+		}
+	}
+	&-btn {
+		width: 372px;
+	    background-color: #4bcaff;
+	    color: #fff;
+	    padding: 25px 153px;
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    border: none;
+	    cursor: pointer;
+	}
+	&-textContent{
+		display: block;
+		line-height: 1.5;
+		width: 570px;
+		position: absolute;
+		top: 172px;
+		right: 270px;
+	}
+	&-addressInfo {
+		font-family: 'SegoeUILight', sans-serif;
+		&:first-child {
+			padding-bottom: 40px;
+		}
+	}
+}
+

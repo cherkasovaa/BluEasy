@@ -45,10 +45,10 @@
   height: 2px;
   background: #515f67;
 }
-.Testimonials .Testimonials-excerption {
+.Testimonials-excerption {
   padding-bottom: 45px;
 }
-.Testimonials .Testimonials-excerption--blue {
+.Testimonials-excerption--blue {
   color: #a9e2ff;
   font-family: 'SegoeUIBold', sans-serif;
   font-weight: bold;
