@@ -13,3 +13,29 @@
 .Text--top {
   margin-bottom: 12px;
 }
+.Text-contentJohnDoe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  line-height: 1.5;
+}
+.Text-contentJohnDoe--wrap {
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.Text-contentJohnDoe--wrap:first-child {
+  margin-right: 28px;
+}
+.Text-subContentJohnDoe:first-child {
+  margin-bottom: 35px;
+}
