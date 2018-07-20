@@ -1,0 +1,56 @@
+.Testimonials {
+  background: #fff;
+  color: #515f67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SegoeUILight", sans-serif;
+  font-size: 28px;
+}
+.Testimonials-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+}
+.Testimonials-headerContainer {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.Testimonials-headerText {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  top: 0;
+  bottom: 10px;
+}
+.Testimonials-textUnderLine {
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 2px;
+  background: #515f67;
+}
+.Testimonials .Testimonials-excerption {
+  padding-bottom: 45px;
+}
+.Testimonials .Testimonials-excerption--blue {
+  color: #a9e2ff;
+  font-family: 'SegoeUIBold', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}

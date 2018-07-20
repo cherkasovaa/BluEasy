@@ -1,0 +1,42 @@
+.Testimonials {
+	background: #fff;
+	color: #515f67;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "SegoeUILight", sans-serif;
+	font-size: 28px;
+	&-wrapp {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 40px;
+	}
+	&-headerContainer {
+		display: inline-block;
+		text-transform: uppercase;
+	}
+	&-headerText {
+		display: inline-block;
+		position: relative;
+		font-size: 30px;
+		top: 0;
+		bottom: 10px;
+	}
+	&-textUnderLine {
+		display: block;
+		position: absolute;
+		width: 46px;
+	    height: 2px;
+	    background: #515f67;
+	}
+	.Testimonials-excerption {
+		padding-bottom: 45px;
+		&--blue{
+			color: #a9e2ff;
+			font-family: 'SegoeUIBold', sans-serif;
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+}

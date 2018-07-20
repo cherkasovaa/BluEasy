@@ -21,10 +21,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-size: 14px;
   line-height: 1.5;
+  padding-bottom: 70px;
 }
 .Text-contentJohnDoe--wrap {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +35,7 @@
           flex-direction: column;
 }
 .Text-contentJohnDoe--wrap:first-child {
-  margin-right: 28px;
+  margin-right: 30px;
 }
 .Text-subContentJohnDoe:first-child {
   margin-bottom: 35px;
