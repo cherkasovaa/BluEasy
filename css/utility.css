@@ -24,6 +24,10 @@
 	width: 50%;
 }
 
+.u-width40 {
+	width: 40%;
+}
+
 .u-height574 {
 	height: 574px;
 }
@@ -35,4 +39,8 @@
 .u-height100{
 	height: 100%;
 	width: 100%;
+}
+
+.u-height475{
+	height: 475px;
 }

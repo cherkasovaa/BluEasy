@@ -15,7 +15,7 @@
   color: #515f67;
   text-transform: uppercase;
 }
-.Portfolio .Portfolio-menuContainer {
+.Portfolio-menuContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,25 +28,25 @@
           justify-content: space-between;
   padding-bottom: 80px;
 }
-.Portfolio .Portfolio-menuContainer .Portfolio-headerContainer {
+.Portfolio-headerContainer {
   display: inline-block;
   text-transform: uppercase;
 }
-.Portfolio .Portfolio-menuContainer .Portfolio-headerContainer .Portfolio-headerText {
+.Portfolio-headerText {
   display: inline-block;
   position: relative;
   font-family: "SegoeUILight", sans-serif;
   font-size: 30px;
   bottom: 10px;
 }
-.Portfolio .Portfolio-menuContainer .Portfolio-headerContainer .Portfolio-textUnderLine {
+.Portfolio-textUnderLine {
   display: block;
   position: absolute;
   width: 46px;
   height: 2px;
   background: #515f67;
 }
-.Portfolio .Portfolio-menu {
+.Portfolio-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +59,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.Portfolio .Portfolio-menu .Portfolio-item {
+.Portfolio-item {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -67,11 +67,11 @@
   padding: 8px 17px;
   border: 2px solid transparent;
 }
-.Portfolio .Portfolio-menu .Portfolio-item:hover {
+.Portfolio-item:hover {
   color: #4bcaff;
   border: 2px solid #4bcaff;
 }
-.Portfolio .Portfolio-imgContainer {
+.Portfolio-imgContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,16 +87,16 @@
   -ms-flex-line-pack: justify;
       align-content: space-between;
 }
-.Portfolio .Portfolio-imgContainer .Portfolio-wrap {
+.Portfolio-wrap {
   overflow: hidden;
   background: #515f67;
   cursor: pointer;
   position: relative;
 }
-.Portfolio .Portfolio-imgContainer .Portfolio-wrap .Portfolio-imgItem {
+.Portfolio-imgItem {
   -webkit-transition: .9s;
   transition: .9s;
 }
-.Portfolio .Portfolio-imgContainer .Portfolio-wrap .Portfolio-imgItem:hover {
+.Portfolio-imgItem:hover {
   opacity: 0.2;
 }

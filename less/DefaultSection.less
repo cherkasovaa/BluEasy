@@ -1,0 +1,39 @@
+@colorBg: #515f67;
+
+.DefaultSection {
+	background: @colorBg;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&-textMain {
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+	}
+	&-headerContainer {
+		display: inline-block;
+		text-transform: uppercase;
+		padding-bottom: 30px;
+	}
+	&-headerText {
+		display: inline-block;
+		position: relative;
+		font-family: "SegoeUILight", sans-serif;
+		font-size: 30px;
+		bottom: 10px;
+	}
+	&-textUnderLine {
+		display: block;
+		position: absolute;
+		width: 46px;
+	    height: 2px;
+	    background: #fff;
+	}
+	&-contentText{
+		font-family: 'SegoeUI', sans-serif;
+		font-size: 14px;
+		line-height: 2;
+		padding-bottom: 37px;
+	}
+}
