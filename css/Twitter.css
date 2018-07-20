@@ -1,5 +1,6 @@
-.DefaultSection {
-  background: #515f67;
+.Twitter {
+  background: #4bcaff;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,40 +11,42 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "SegoeUILight", sans-serif;
 }
-.DefaultSection-textMain {
+.Twitter-mainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fff;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
 }
-.DefaultSection-headerContainer {
+.Twitter-headerContainer {
   display: inline-block;
   text-transform: uppercase;
-  padding-bottom: 30px;
 }
-.DefaultSection-headerText {
+.Twitter-headerText {
   display: inline-block;
   position: relative;
-  font-family: "SegoeUILight", sans-serif;
   font-size: 30px;
   top: 0;
   bottom: 10px;
 }
-.DefaultSection-textUnderLine {
+.Twitter-textUnderLine {
   display: block;
   position: absolute;
   width: 46px;
   height: 2px;
   background: #fff;
 }
-.DefaultSection-contentText {
-  font-family: 'SegoeUI', sans-serif;
-  font-size: 14px;
-  line-height: 2;
-  padding-bottom: 37px;
+.Twitter-textContent {
+  font-size: 28px;
+}
+.Twitter-textContent--bold {
+  font-family: 'SegoeUIBold', sans-serif;
 }

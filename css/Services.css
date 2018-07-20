@@ -21,6 +21,7 @@
   position: relative;
   font-family: "SegoeUILight", sans-serif;
   font-size: 30px;
+  top: 0;
   bottom: 10px;
 }
 .Services .Services-headerContainer .Sevices-textUnderLine {
