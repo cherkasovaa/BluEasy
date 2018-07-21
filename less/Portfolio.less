@@ -1,15 +1,13 @@
-@colorGrey: #515f67;
-@colorbg: #fff;
-@colorBlue: #4bcaff;
+@import url(color.less);
 
 .Portfolio{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: @colorbg;
+	background: @colorWhite;
 	font-family: "SegoeUILight", sans-serif;
 	font-size: 30px;
-	color: @colorGrey;
+	color: @colorGreyLight;
 	text-transform: uppercase;
 	&-menuContainer {
 		display: flex;
@@ -34,7 +32,7 @@
 		position: absolute;
 		width: 46px;
 	    height: 2px;
-	    background: @colorGrey;
+	    background: @colorGreyLight;
 	}
 		
 	&-menu {
@@ -47,7 +45,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 14px;
-		color: @colorGrey;
+		color: @colorGreyLight;
 		padding: 8px 17px;
 		border: 2px solid transparent;
 		&:hover{
@@ -64,7 +62,7 @@
 	}
 	&-wrap {
 		overflow: hidden;
-		background: @colorGrey;
+		background: @colorGreyLight;
 		cursor: pointer;
 		position: relative;
 	}

@@ -1,6 +1,6 @@
 .Form {
   background: url(../images/bg/bg_form.jpg) no-repeat center center / cover;
-  color: #fff;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,7 @@
   position: absolute;
   width: 46px;
   height: 2px;
-  background: #fff;
+  background: #ffffff;
 }
 .Form-wrapper {
   display: -webkit-box;
@@ -70,10 +70,10 @@
   height: 60px;
   padding: 15px 20px;
   margin-bottom: 40px;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
 }
 .Form-itemInput:focus {
-  color: #fff;
+  color: #ffffff;
 }
 .Form-textArea {
   width: 100%;
@@ -81,18 +81,18 @@
   padding: 12px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   background: none;
   resize: none;
   margin-bottom: 40px;
 }
 .Form-textArea:focus {
-  color: #fff;
+  color: #ffffff;
 }
 .Form-btn {
   width: 372px;
   background-color: #4bcaff;
-  color: #fff;
+  color: #ffffff;
   padding: 25px 153px;
   font-size: 14px;
   font-weight: bold;

@@ -1,5 +1,5 @@
 .Testimonials {
-  background: #fff;
+  background: #ffffff;
   color: #515f67;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@
   background: #515f67;
 }
 .Testimonials-excerption {
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 .Testimonials-excerption--blue {
   color: #a9e2ff;

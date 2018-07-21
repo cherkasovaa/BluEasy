@@ -19,7 +19,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #fff;
+  color: #ffffff;
 }
 .DefaultSection-headerContainer {
   display: inline-block;
@@ -39,7 +39,7 @@
   position: absolute;
   width: 46px;
   height: 2px;
-  background: #fff;
+  background: #ffffff;
 }
 .DefaultSection-contentText {
   font-family: 'SegoeUI', sans-serif;

@@ -1,7 +1,7 @@
-@colorBg: #515f67;
+@import url(color.less);
 
 .DefaultSection {
-	background: @colorBg;
+	background: @colorGreyLight;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -9,7 +9,7 @@
 	&-textMain {
 		display: flex;
 		flex-direction: column;
-		color: #fff;
+		color: @colorWhite;
 	}
 	&-headerContainer {
 		display: inline-block;
@@ -29,7 +29,7 @@
 		position: absolute;
 		width: 46px;
 	    height: 2px;
-	    background: #fff;
+	    background: @colorWhite;
 	}
 	&-contentText{
 		font-family: 'SegoeUI', sans-serif;

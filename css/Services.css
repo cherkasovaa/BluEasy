@@ -9,7 +9,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #feffff;
+  color: #ffffff;
   background: #4bcaff;
   font-family: "SegoeUI", sans-serif;
 }
@@ -29,7 +29,7 @@
   position: absolute;
   width: 46px;
   height: 2px;
-  background: #feffff;
+  background: #ffffff;
 }
 .Services .Sevices-itemContainer {
   display: -webkit-box;

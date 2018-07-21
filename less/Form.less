@@ -1,6 +1,8 @@
+@import url(color.less);
+
 .Form{
 	background: url(../images/bg/bg_form.jpg) no-repeat center center / cover;
-	color: #fff;
+	color: @colorWhite;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -29,7 +31,7 @@
 		position: absolute;
 		width: 46px;
 	    height: 2px;
-	    background: #fff;
+	    background: @colorWhite;
 	}
 	&-wrapper {
 		display: flex;
@@ -48,9 +50,9 @@
 		height: 60px;
 		padding: 15px 20px;
 		margin-bottom: 40px;
-		border: 2px solid #fff;
+		border: 2px solid @colorWhite;
 		&:focus {
-			color:#fff;
+			color:@colorWhite;
 		}
 	}
 
@@ -60,18 +62,18 @@
 	    height: 220px;
 	    padding: 12px 20px;
 	    box-sizing: border-box;
-	    border: 2px solid #fff;
+	    border: 2px solid @colorWhite;
 	    background: none;
 	    resize: none;
 	    margin-bottom: 40px;
 	    &:focus {
-			color:#fff;
+			color:@colorWhite;
 		}
 	}
 	&-btn {
 		width: 372px;
-	    background-color: #4bcaff;
-	    color: #fff;
+	    background-color: @colorBlue;
+	    color: @colorWhite;
 	    padding: 25px 153px;
 	    font-size: 14px;
 	    font-weight: bold;

@@ -1,6 +1,6 @@
 .Twitter {
   background: #4bcaff;
-  color: #fff;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +42,7 @@
   position: absolute;
   width: 46px;
   height: 2px;
-  background: #fff;
+  background: #ffffff;
 }
 .Twitter-textContent {
   font-size: 28px;
