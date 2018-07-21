@@ -2,15 +2,17 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	font-family: "SegoeUILight", sans-serif;
+	font-size: 14px;
 	background: #353f47;
 	color: #515f67;
-	text-transform: uppercase;
-	font-family: 'SegoeUISemiBold', san-serif;
 	font-weight: bold;
-	&-nav{
+	&-wrap{
 		display: flex;
-		justify-content: space-between;
-		box-sizing: border-box;
+	}
+	&-nav{
+		text-transform: uppercase;
+		margin-right: 10px;
 	}
 	&-items{
 		color: #515f67;
@@ -24,7 +26,8 @@
 			border: none;
 		}
 	}
-	&-copy{
-
-	}
+	&-copyright{
+			display: flex;
+			justify-content: flex-end;
+		}
 }
