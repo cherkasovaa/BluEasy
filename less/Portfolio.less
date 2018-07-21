@@ -62,15 +62,25 @@
 	}
 	&-wrap {
 		overflow: hidden;
-		background: @colorGreyLight;
 		cursor: pointer;
 		position: relative;
+		background: @colorGreyLight;
+	}
+	&-iconPlus{
+		opacity: 0;
+		position: absolute;
+		top: 119px;
+		left: 119px;
+		transition: 0.5s;
+	}
+	&-wrap:hover &-iconPlus{
+		opacity: 1;
 	}
 	&-imgItem {
-		transition: .9s;
-		&:hover {
-			opacity: 0.2;
-		}
+		transition: .5s;
 	}
+	&-wrap:hover &-imgItem{
+			opacity: 0.2;
+			}
 }
 	
