@@ -77,3 +77,27 @@
 .u-height170{
 	height: 170px;
 }
+
+@media all and (max-width: 1200px) {
+	.u-container{
+		width: 1024px;
+	}
+}
+
+@media all and (max-width: 1060px) {
+	.u-container{
+		width: 768px;
+	}	
+}
+
+@media all and (max-width: 860px) {
+	.u-container{
+		width: 600px;
+	}	
+}
+
+@media all and (max-width: 768px) and (min-width: 320px) {
+	.u-container{
+		width: 100%;
+	}	
+}

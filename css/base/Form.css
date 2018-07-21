@@ -11,7 +11,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "SegoeUISemiBold", sans-serif;
+  font-family: "SegoeUIBold", sans-serif;
   font-size: 14px;
   position: relative;
 }
@@ -34,6 +34,7 @@
   padding-bottom: 38px;
 }
 .Form-headerText {
+  font-family: "SegoeUILight", sans-serif;
   display: inline-block;
   font-size: 30px;
   top: 0;
