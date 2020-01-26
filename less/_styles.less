@@ -28,8 +28,7 @@ body {
   &--transparent {
     border: 2px solid @secondaryDarker;
     background: transparent;
-    width: 140px;
-    padding: 13px;
+    padding: 13px 39px;
     color: @secondaryDarker;
 
     &:hover {
@@ -49,14 +48,10 @@ body {
 
 .defaultSection {
   background: @secondary;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 72px 0 79px;
 
   &-contentWrap {
     display: inline-block;
-    flex-direction: column;
     width: 40.5%;
     padding-left: 2px;
   }
@@ -76,9 +71,6 @@ body {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   .font-style(600);
   background: @secondaryDarker;
   color: @secondary;
@@ -97,9 +89,6 @@ body {
 
 .feedback {
   background: url(../images/bg/bg_form.jpg) no-repeat center center / cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   .font-style(bold);
   position: relative;
   padding: 72px 0 80px;
@@ -168,15 +157,16 @@ body {
 
 .header {
   background: url(../images/bg/bg_main.jpg) no-repeat center / cover;
-  display: flex;
-  flex-wrap: wrap;
   position: relative;
+  text-transform: uppercase;
 
   &-bar {
     background: rgba(70, 80, 88, 0.75);
     height: 150px;
     width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
   }
 
   &-content {
@@ -197,7 +187,6 @@ body {
     &-wrap {
       text-align: center;
       .font-style(300);
-      text-transform: uppercase;
       font-size: 2.625rem; // 42px
     }
   }
@@ -206,9 +195,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-bottom: 250px;
-  // padding: 71px 0 69px;
   line-height: 150px;
 }
 
@@ -218,7 +205,6 @@ body {
   z-index: 3;
 
   &-text {
-    text-transform: uppercase;
     font-size: 1.875rem; // 30px
     letter-spacing: 1.1px;
 
@@ -272,8 +258,6 @@ body {
   }
 
   &-link {
-    text-decoration: none;
-    text-transform: uppercase;
     color: @primary;
     padding: 6px 19px;
     border: 2px solid transparent;
@@ -284,7 +268,6 @@ body {
     }
 
     &--portfolio {
-      text-decoration: none;
       font-size: 14px;
       color: @secondary;
       padding: 4px 16px;
@@ -299,7 +282,6 @@ body {
 
     &--footer {
       color: @secondary;
-      text-decoration: none;
       padding: 0 13px 0 12px;
       letter-spacing: -0.7px;
       border-right: 2px solid @secondary;
@@ -312,9 +294,7 @@ body {
     .heading-style();
 
     &::after {
-      // &-decoration {
       .decoration-style(@primary);
-      // }
     }
 
     &--testimonials::after,
@@ -326,9 +306,6 @@ body {
 
 .twitter {
   background: @tertiary;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   .font-style(300);
   padding: 72px 0 66px;
 
@@ -366,9 +343,6 @@ body {
 .testimonials {
   background: @primary;
   color: @secondary;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   .font-style(300);
   font-size: 1.75rem; // 28px
   padding: 72px 0 76px;
@@ -434,15 +408,11 @@ body {
 }
 
 .services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: @tertiary;
   padding: 72px 0 44px;
 
   &-container {
     display: flex;
-    flex-direction: row;
     padding: 11px 0 33px;
   }
 }
@@ -483,9 +453,6 @@ body {
 }
 
 .portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: @primary;
   .font-style(300);
   font-size: 1.875rem; // 30px
@@ -522,7 +489,6 @@ body {
 
   &-image {
     transition: .5s;
-    // height: 100%;
     width: 100%;
   }
 
@@ -545,9 +511,6 @@ body {
 
 .aboutJohnDoe {
   background: url(../images/bg/bg_JohnDoe.jpg) no-repeat center center / cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 93px 0 169px;
 
   &-contentWrap {
@@ -558,8 +521,6 @@ body {
   }
 
   &-content {
-    display: flex;
-    flex-direction: column;
     margin-right: 30px;
     max-width: 49%;
 
