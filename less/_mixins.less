@@ -1,0 +1,23 @@
+@import "./_variables.less";
+
+.font-style(@f-style) {
+  font-style: @f-style;
+}
+
+.heading-style() {
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  .font-style(thin);
+  font-size: 1.875rem;
+  top: 0;
+  bottom: 10px;
+}
+
+.decoration-style(@bg-color) {
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 2px;
+  background: @bg-color;
+}
