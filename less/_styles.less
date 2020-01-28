@@ -314,8 +314,6 @@ body {
   padding: 72px 0 66px;
 
   &-mainContainer {
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 33px;
     position: relative;
   }
@@ -352,8 +350,6 @@ body {
   padding: 72px 0 76px;
 
   &-heading {
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 34px;
     position: relative;
   }
@@ -471,6 +467,7 @@ body {
   }
 
   &-workExample {
+    display: block;
     overflow: hidden;
     cursor: pointer;
     position: relative;
@@ -543,26 +540,8 @@ body {
 
 }
 
-@media all and (max-width: 1200px) {
-  .container {
-    width: 1024px;
-  }
-}
-
-@media all and (max-width: 1060px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media all and (max-width: 860px) {
-  .container {
-    width: 600px;
-  }
-}
-
-@media all and (max-width: 768px) and (min-width: 320px) {
-  .container {
-    width: 100%;
-  }
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
 }

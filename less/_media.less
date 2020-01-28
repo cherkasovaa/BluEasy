@@ -1,0 +1,245 @@
+@import "./_variables.less";
+
+@media all and (max-width: @sizes[large]) {
+  .container {
+    width: 1024px;
+    padding: 0 15px;
+  }
+
+  .feedback {
+    &-info {
+      width: 497px;
+      right: 0px;
+    }
+  }
+
+  .portfolio {
+    &-works {
+      transform: translateX(0px);
+    }
+
+    &-workExample {
+
+      &:nth-last-child(-n + 2) {
+        display: none;
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: @sizes[desktop]) {
+  .container {
+    width: 960px;
+    padding: 0 15px;
+  }
+
+  .header-bar {
+    height: 100px;
+  }
+
+  .menu {
+    transform: translateX(1px);
+  }
+
+
+  .nav {
+    padding-bottom: 150px;
+    line-height: 100px;
+  }
+
+  .services {
+    &-container {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  .servicesCard {
+    max-width: 45%;
+    margin-left: 0;
+  }
+
+  .portfolio {
+    &-works {
+      justify-content: space-around;
+    }
+  }
+
+  .aboutJohnDoe {
+    &-contentWrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-content {
+      margin-right: 0px;
+      max-width: 80%;
+    }
+
+    &-text {
+      margin-bottom: 29px;
+    }
+  }
+
+  .feedback {
+    &-info {
+      width: 444px;
+    }
+  }
+
+  .video {
+    float: left;
+    padding-bottom: 30px;
+  }
+
+  .defaultSection {
+    &-contentWrap {
+      float: left;
+      width: 60%;
+    }
+  }
+}
+
+@media all and (max-width: @sizes[tablet]) {
+  .container {
+    width: 560px;
+  }
+
+  .header-content:last-child {
+    margin-bottom: 200px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .services {
+    &-container {
+      justify-content: space-between;
+    }
+  }
+
+  .servicesCard {
+    max-width: 45%;
+  }
+
+  .portfolio {
+    &-works {
+      max-width: 100%;
+    }
+
+    &-workExample {
+      max-height: 220px;
+      width: 220px;
+    }
+  }
+
+  .aboutJohnDoe {
+    padding-bottom: 100px;
+
+    &-contentWrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-content {
+      margin-right: 0px;
+      max-width: 100%;
+    }
+
+    &-text {
+      margin-bottom: 29px;
+    }
+  }
+
+  .feedback {
+    &-info {
+      display: none;
+    }
+
+    &-area {
+      width: 100%;
+    }
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .defaultSection {
+    &-contentWrap {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    &-wrap {
+      justify-content: center;
+    }
+  }
+}
+
+@media all and (max-width: @sizes[mobile]) {
+  .container {
+    width: 410px;
+  }
+
+  .services {
+    &-container {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+
+  .servicesCard {
+    max-width: 100%;
+  }
+
+  .portfolio {
+    &-works {
+      width: 100%;
+      max-width: 100%;
+      justify-content: center;
+    }
+
+    &-navigation {
+      justify-content: flex-start;
+    }
+  }
+
+  .aboutJohnDoe {
+    padding-bottom: 100px;
+
+    &-contentWrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-content {
+      margin-right: 0px;
+      max-width: 100%;
+    }
+
+    &-text {
+      margin-bottom: 29px;
+    }
+  }
+
+  .video {
+    height: auto;
+  }
+
+  .social {
+    &-icon {
+      margin-right: 10px;
+    }
+  }
+
+}
+
+@media all and (max-width: @sizes[xsMobile]) {
+  .container {
+    width: 320px;
+  }
+}
