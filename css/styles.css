@@ -671,6 +671,7 @@ body {
   background: url('../images/icon/css_sprites.png') -44px -125px;
 }
 .social-icon {
+  cursor: pointer;
   border: 2px solid #ffffff;
   margin-right: 20px;
   padding: 10px;
@@ -679,6 +680,9 @@ body {
 }
 .social-icon:last-child {
   margin-right: 0;
+}
+.social-icon:hover {
+  transform: scale(1.05);
 }
 .services {
   background: #4bcaff;

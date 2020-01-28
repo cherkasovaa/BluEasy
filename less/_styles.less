@@ -394,7 +394,10 @@ body {
       }
     }
 
-  ) &-icon {
+  );
+
+  &-icon {
+    cursor: pointer;
     border: 2px solid @primary;
     margin-right: 20px;
     padding: 10px;
@@ -403,6 +406,10 @@ body {
 
     &:last-child {
       margin-right: 0;
+    }
+
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }
