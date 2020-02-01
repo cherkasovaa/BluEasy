@@ -111,7 +111,74 @@
   }
 
   .menu {
-    display: none;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 9;
+
+    &-list {
+
+      font-size: 1.125rem;
+
+      &--navigation {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        right: -300px;
+      }
+
+      &--portfolio {
+        flex-direction: row;
+      }
+
+      &--footer {
+        justify-content: space-between;
+      }
+    }
+
+    &-item {
+      height: 70px;
+      line-height: 70px;
+      background: rgba(70, 80, 88, 0.75);
+
+      &:first-child {
+        margin-left: 9px;
+      }
+
+      &--portfolio {
+        background: transparent;
+
+        &:first-child {
+          margin: 0;
+        }
+      }
+
+      &--footer {
+        background: transparent;
+      }
+    }
+
+    &-link {
+      border: none;
+
+      &:hover {
+        color: @tertiary;
+        border: none;
+      }
+    }
+  }
+
+  .burger {
+    display: inline-block;
+
+    &--active+.menu-list--navigation {
+      display: block;
+      top: 100px;
+      right: 50px;
+      text-align: center;
+    }
   }
 
   .services {
@@ -125,6 +192,11 @@
   }
 
   .portfolio {
+    &-navigation {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
     &-works {
       max-width: 100%;
     }
@@ -175,7 +247,8 @@
 
   .footer {
     &-wrap {
-      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   }
 }
@@ -197,15 +270,7 @@
   }
 
   .portfolio {
-    &-works {
-      width: 100%;
-      max-width: 100%;
-      justify-content: center;
-    }
-
-    &-navigation {
-      justify-content: flex-start;
-    }
+    display: none;
   }
 
   .aboutJohnDoe {
@@ -234,6 +299,28 @@
     &-icon {
       margin-right: 10px;
     }
+  }
+
+  .menu {
+    &-list {
+      &--footer {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &-footer {
+      padding-bottom: 20px
+    }
+  }
+
+  .burger--active+.menu-list--navigation {
+    width: 100vw;
+    right: 0px;
+  }
+
+  .footer {
+    padding: 30px 0;
   }
 
 }
