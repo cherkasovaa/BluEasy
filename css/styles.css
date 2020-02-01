@@ -386,13 +386,15 @@ body {
   width: 40px;
   height: 6px;
   border-radius: 5px;
-  background: #515f67;
+  background: #ffffff;
 }
 .video {
   width: 560px;
   height: 320px;
   float: right;
   padding-top: 7px;
+  border: none;
+  outline: none;
 }
 .btn {
   font-weight: bold;
